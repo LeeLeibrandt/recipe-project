@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: black;
+}
+
+nav{
+  height: 50px;
+  background: lightblue;
+  display: fixed;
+  border-radius: 7px;
+}
+
+#main-head{
+    font-family: 'sofia';
+    font-size: 30px;
+    color: white;
+    margin: 0 15px;
+}
+
+#nav-bar{
+    width: 100%;
+    margin: 0;
+    padding-right: 0;
+    justify-content: space-around;
+}
+
+#nav-bar ul{
+    width: 100%;
+    margin: 0;
+    padding-right: 0;
+    display: relative;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#nav-bar ul:hover{
+    color: red;
+}
+
+#nav-bar ul li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 50px;
+    margin-top: 11px;
+    margin-right: 20px;
+    float: right;
+}
+
+#nav-bar ul li a {
+    color: black;
+}
+
+.box{
+    margin: 40px;
+    width: 1000px;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 5px 15px lightblue;
+    transition: .5s;
+    display: inline-block;
+}
+
+#main-con {
+    display: block;
+}
+
+#head{
+    display: 70%;
+    margin: 30px;
+}
+
+#main-head {
+    float: left;
+    font-size: 30px;
+    margin: 0 15px;
+    font-family:'Sofia';
+    font-weight: bolder;
+    color: white;
+}
+
+#head h1 {
+    margin: 0px 20px;
+}
+
+
+#img-ad {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 50px;
+}
+
+.product {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border: 3.5px solid lightblue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.box-img{
+   width: 380px;
+   height: 292px;
+   border-radius: 5px;
+   padding: 1px;
+}
+
+
+
+footer {
+    margin-top: 30px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 7px;
+}
+  
+ul li{
+    justify-content: space-between;
+    color: black;
+    list-style: none;
+    float: right;
+    margin: 0 10px;
+}
