@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html{
@@ -15,6 +14,8 @@ nav{
   background: lightblue;
   display: fixed;
   border-radius: 7px;
+  width: 98%;
+  margin-left: 12px;
 }
 
 #main-head{
@@ -24,28 +25,19 @@ nav{
     margin: 0 15px;
 }
 
-#nav-bar{
-    width: 100%;
-    margin: 0;
-    padding-right: 0;
-    justify-content: space-around;
-}
-
 #nav-bar ul{
     width: 100%;
-    margin: 0;
-    padding-right: 0;
+    margin: 0 0 20px;
     display: relative;
     justify-content: space-between;
     cursor: pointer;
 }
 
-#nav-bar ul:hover{
-    color: red;
+#nav-bar ul li:hover{
+    color: crimson;
 }
 
 #nav-bar ul li{
-    list-style: none;
     text-align: center;
     display: inline-block;
     justify-content: space-between;
@@ -54,31 +46,11 @@ nav{
     margin-top: 11px;
     margin-right: 20px;
     float: right;
+    color: white;
 }
 
 #nav-bar ul li a {
     color: black;
-}
-
-.box{
-    margin: 40px;
-    width: 1000px;
-    padding: 20px;
-    box-sizing: border-box;
-    background: white;
-    border-radius: 7px;
-    box-shadow: 0 5px 15px lightblue;
-    transition: .5s;
-    display: inline-block;
-}
-
-#main-con {
-    display: block;
-}
-
-#head{
-    display: 70%;
-    margin: 30px;
 }
 
 #main-head {
@@ -90,36 +62,176 @@ nav{
     color: white;
 }
 
-#head h1 {
-    margin: 0px 20px;
+.wrapper{
+    width: 82%;
+    padding : 20px;
+    border: 3px solid lightblue;
+    box-sizing: border-box;
+    background: white;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 15px;
+    margin-left: 115px;
 }
 
+.wrapperX img{
+    width: 525px;
+    margin-left: 15px;
+    display: inline-block;
+    padding-right: 50px;
+}
 
-#img-ad {
-    margin-top: 50px;
+.wrapper .wrapperX{
+    max-width: 100%;
+}
+
+.wrapper .contentX{
+    padding-left: 20px;
+}
+
+.wrapper .contentX h2{
+    margin: 0;
+    padding-left: 0;
+    color: crimson;
+    font-size: 22px;
+}
+
+.sub-head {
+  margin-left: 555px;
+  margin-top: 50px;
+  font-style: italic;
+  font-size: 20;
+}
+
+.container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0 0 50px;
+    margin: 50px;
+    margin-left: 50px;
+    position: relative;
 }
 
-.product {
+.img-box{
     width: 500px;
-    height: 300px;
+    height: 295px;
     margin: 20px;
     border: 3.5px solid lightblue;
     border-radius: 5px;
     text-align: center;
 }
 
-.box-img{
-   width: 380px;
-   height: 292px;
-   border-radius: 5px;
-   padding: 1px;
+.img{
+    width: 380px;
+    height: 292px;
+    border-radius: 5px;
+    padding: 1px;
 }
 
+#vegan{
+    width: 499px;
+}
 
+.transition-image{
+    position: absolute;
+    top: 2px;
+    padding-top: 20px;
+    left: 68px;
+    height: 298px;
+    opacity: 0;
+    border-radius: 7px;
+}
+
+.transition-image:hover{
+    opacity: 1;
+    transition: opacity 0.7s ease;
+}
+
+.transition{
+    position: absolute;
+    top: 2px;
+    padding-top: 20px;
+    right: 66.9px;
+    height: 298px;
+    border-radius: 7px;
+    opacity: 0;
+}
+.transition:hover{
+    opacity: 1;
+    transition: opacity 0.7s ease;
+}
+
+.trans-img{
+    position: absolute;
+    top: 2PX;
+    padding-top: 21px;
+    left: 67px;
+    height: 295px;
+    width: 500px;
+    border-radius: 7px;
+}
+
+.fade{
+    padding-top: 22px;
+}
+
+.fade::after{
+    content: "Burgers";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: black;
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    left: 68px;
+    height: 298px;
+    border-radius: 7px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.fade:hover::after{
+    opacity: 0.5;
+}
+
+.trans-img-right{
+    position: absolute;
+    top: 2px;
+    padding-top: 21px;
+    right: 67px;
+    height: 295px;
+    width: 500px;
+    border: 7px;
+}
+
+.fade-box{
+    padding-top: 22px;
+}
+
+.fade-box::after{
+    content: "DESERTS";
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background: black;
+    width: 500px;
+    height: 100%;
+    position: absolute;
+    right: 68px;
+    height: 298px;
+    border-radius: 7px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.fade-box:hover::after{
+    opacity: 0.5;
+}
 
 footer {
     margin-top: 30px;
@@ -127,7 +239,7 @@ footer {
     padding: 20px;
     border-radius: 7px;
 }
-  
+
 ul li{
     justify-content: space-between;
     color: black;
