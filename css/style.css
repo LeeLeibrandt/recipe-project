@@ -6,7 +6,7 @@
 html{
     font-family: monospace, Arial, Helvetica, sans-serif;
     font-size: 13px;
-    color: black;
+    background-color: lightblue;
 }
 
 nav{
@@ -50,7 +50,11 @@ nav{
 }
 
 #nav-bar ul li a {
-    color: black;
+    color: white;
+}
+
+#nav-bar ul li a:hover{
+    color: crimson;
 }
 
 #main-head {
@@ -65,13 +69,14 @@ nav{
 .wrapper{
     width: 82%;
     padding : 20px;
-    border: 3px solid lightblue;
+    border: 3px solid white;
     box-sizing: border-box;
     background: white;
     display: inline-flex;
     font-size: 16px;
     margin: 15px;
     margin-left: 115px;
+    border-radius: 7px;
 }
 
 .wrapperX img{
@@ -79,6 +84,7 @@ nav{
     margin-left: 15px;
     display: inline-block;
     padding-right: 50px;
+    border-radius: 4px;
 }
 
 .wrapper .wrapperX{
@@ -96,11 +102,71 @@ nav{
     font-size: 22px;
 }
 
+.table{
+    display: 50%;
+    background-color:white;
+    width: 1050px;
+    height: 150px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+}
+
+th{
+    width: 4rem;
+    line-height: 3rem;
+}
+
+caption{
+    color: black;
+    margin-left: 1rem;
+    font-size: 30px;
+}
+
+#pricing {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 82%;
+    height: 209px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+  
+.product > .level {
+    background-color: rgb(55, 55, 179);
+    color: white;
+    padding: 15px 0;
+    width: 1050px;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+#banner{
+    background-color: white;
+    height:1000px;
+    border-radius: 7px;
+}
+
 .sub-head {
   margin-left: 555px;
   margin-top: 50px;
   font-style: italic;
   font-size: 20;
+}
+
+.sub-head h2{
+    margin: 0 20px;
 }
 
 .container{
@@ -116,7 +182,7 @@ nav{
     width: 500px;
     height: 295px;
     margin: 20px;
-    border: 3.5px solid lightblue;
+    border: 2.5px solid lightblue;
     border-radius: 5px;
     text-align: center;
 }
@@ -233,13 +299,6 @@ nav{
     opacity: 0.5;
 }
 
-footer {
-    margin-top: 30px;
-    background-color: lightblue;
-    padding: 20px;
-    border-radius: 7px;
-}
-
 ul li{
     justify-content: space-between;
     color: black;
@@ -247,3 +306,22 @@ ul li{
     float: right;
     margin: 0 10px;
 }
+
+#nav-footer{
+    margin-top: 30px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 7px;
+    font-size: 17px; 
+}
+
+#nav-footer ul li{
+    color: white;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#nav-footer ul li:hover{
+    color: crimson;
+}
+
