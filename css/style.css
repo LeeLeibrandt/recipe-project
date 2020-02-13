@@ -31,7 +31,6 @@ nav{
     display: inline-block;
     justify-content: space-between;
     font-size: 16px;
-    margin: 50px;
     margin-top: 11px;
     margin-right: 20px;
     float: right;
@@ -39,7 +38,7 @@ nav{
 }
 
 #nav-bar ul li:hover{
-    color: crimson;
+    color: orange;
     border-bottom: 2px solid white;
 }
 
@@ -48,7 +47,7 @@ nav{
 }
 
 #nav-bar ul li a:hover{
-    color: crimson;
+    color: orange;
     border-bottom: 2px solid white;
 }
 
@@ -64,7 +63,9 @@ nav{
 .wrapper{
     width: 82%;
     padding : 20px;
-    border: 2px solid rgb(82, 82, 82);
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    border: 2px solid rgb(248, 177, 46);
     box-sizing: border-box;
     background: rgb(255, 255, 255);
     display: inline-flex;
@@ -93,7 +94,7 @@ nav{
 .wrapper .contentX h2{
     margin: 0;
     padding-left: 0;
-    color: crimson;
+    color: orange;
     font-size: 22px;
 }
 
@@ -120,7 +121,7 @@ tr th{
 }
 
 tr th ol{
-    color: rgb(55, 55, 179);
+    color: rgb(248, 177, 46);
 }
 
 th{
@@ -148,7 +149,7 @@ th{
 }
   
 .product > .level {
-    background-color: rgb(55, 55, 179);
+    background-color: rgb(248, 177, 46);
     color: white;
     padding: 15px 0;
     width: 1050px;
@@ -163,11 +164,17 @@ th{
     height:1000px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
+    padding-bottom: 30px; 
+}
+
+#banner-1{
+    padding-top:30px;
 }
 
 .sub-head {
   margin-left: 555px;
   margin-top: 50px;
+  padding-top: 40px;
   font-style: italic;
   font-size: 20;
 }
@@ -191,26 +198,17 @@ th{
     height: 295px;
     margin: 20px;
     border: 2.5px solid lightskyblue;
-    border-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
     text-align: center;
 }
 
 .img{
-    width: 380px;
-    height: 292px;
-    border-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    padding: 1px;
+    width: 382px;
+    height: 294px;
+    padding-top: 0px;
 }
 
 #vegan{
     width: 499px;
-    border-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
 }
 
 .transition-image{
@@ -218,9 +216,8 @@ th{
     top: 2px;
     padding-top: 20px;
     left: 68px;
-    height: 298px;
+    height: 294.5px;
     opacity: 0;
-    border-radius: 7px;
 }
 
 .transition-image:hover{
@@ -232,9 +229,8 @@ th{
     position: absolute;
     top: 2px;
     padding-top: 20px;
-    right: 66.9px;
-    height: 298px;
-    border-radius: 7px;
+    right: 68px;
+    height: 294.5px;
     opacity: 0;
 }
 .transition:hover{
@@ -244,7 +240,7 @@ th{
 
 .trans-img{
     position: absolute;
-    top: 2PX;
+    top: 2px;
     padding-top: 21px;
     left: 67px;
     height: 295px;
@@ -267,8 +263,7 @@ th{
     height: 100%;
     position: absolute;
     left: 68px;
-    height: 298px;
-    border-radius: 7px;
+    height: 296px;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -303,8 +298,7 @@ th{
     height: 100%;
     position: absolute;
     right: 68px;
-    height: 298px;
-    border-radius: 7px;
+    height: 296px;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -321,8 +315,10 @@ ul li{
     margin: 0 10px;
 }
 
+
 .contaner-footer{
-    height: 310px;
+    height: 350px;
+    padding-bottom: 25px;
     font-family: monospace;
     background-color:rgb(230, 230, 230);
     border-bottom-left-radius: 7px;
@@ -350,10 +346,11 @@ ul li{
 }
 
 .row-footer h1{
-    color: rgb(255, 68, 68);
+    color: orange;
     font-size: 35px;
     font-weight: 3rem;
     font-family: 'sofia';
+    padding-top: 30px;
 }
 
 .row-footer p{
@@ -364,17 +361,18 @@ ul li{
 
 .btn-footer{
     padding: 0 20px;
+    width: 305px;
     height: 40px;
     font-size: 15px;
     font-weight: 900;
     border: 3px lightblue;
-    border-radius: 15px;
-    background-color: lightblue;
+    border-radius: 7px;
+    background-color: lightskyblue;
     cursor: pointer;
 }
 
 .btn-footer:hover{
-    background-color: lightskyblue;
+    background-color: rgb(248, 177, 46);
     transition: background-color 0.5s;
 }
 
@@ -393,7 +391,7 @@ ul li{
 }
 
 #nav-footer ul li:hover{
-    color: crimson;
+    color: orange;
     border-bottom: 2px solid white;
 }
 
