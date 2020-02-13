@@ -192,6 +192,8 @@ th{
     margin: 20px;
     border: 2.5px solid lightskyblue;
     border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     text-align: center;
 }
 
@@ -199,11 +201,16 @@ th{
     width: 380px;
     height: 292px;
     border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     padding: 1px;
 }
 
 #vegan{
     width: 499px;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .transition-image{
@@ -242,7 +249,6 @@ th{
     left: 67px;
     height: 295px;
     width: 500px;
-    border-radius: 7px;
 }
 
 .fade{
