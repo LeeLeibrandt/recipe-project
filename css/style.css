@@ -9,6 +9,12 @@ html{
     background-color: lightblue;
 }
 
+@media {
+    .illustration {
+        width: 100%;
+    }
+}
+
 nav{
   height: 50px;
   background: lightblue;
