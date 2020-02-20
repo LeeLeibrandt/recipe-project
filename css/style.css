@@ -31,7 +31,7 @@ html{
         width: 600px;
     }
     .transition-image{
-        width: 600px;
+        width: fit-content;
     }
 
     .transition{
@@ -132,9 +132,11 @@ nav{
     font-size: 22px;
 }
 
-.int ul{
+.int ol li{
     vertical-align: middle;
+    margin-left: 30px;
 } 
+
 
 .contentX{
     position: relative;
@@ -401,7 +403,7 @@ ul li{
     width: 305px;
     height: 40px;
     font-size: 15px;
-    font-weight: 900;
+    font-weight: 700;
     border: 3px lightblue;
     border-radius: 7px;
     background-color: lightskyblue;
